@@ -12,8 +12,9 @@
 		AFC67517208E2257009FD111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC67515208E2257009FD111 /* Main.storyboard */; };
 		AFC67519208E2259009FD111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC67518208E2259009FD111 /* Assets.xcassets */; };
 		AFC6751C208E2259009FD111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6751A208E2259009FD111 /* LaunchScreen.storyboard */; };
-		AFC67524208E2C8D009FD111 /* DayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC67523208E2C8D009FD111 /* DayView.xib */; };
-		AFC67526208E3060009FD111 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC67525208E3060009FD111 /* DayView.swift */; };
+		B9DF229B2849A8C900DDB035 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF22992849A88C00DDB035 /* DayView.swift */; };
+		B9DF229C2849A8D100DDB035 /* DayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DF229A2849A88C00DDB035 /* DayView.xib */; };
+		B9DF229E2849A95300DDB035 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF229D2849A95300DDB035 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		AFC67518208E2259009FD111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC6751B208E2259009FD111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC6751D208E2259009FD111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFC67523208E2C8D009FD111 /* DayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayView.xib; sourceTree = "<group>"; };
-		AFC67525208E3060009FD111 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		B9DF22992849A88C00DDB035 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		B9DF229A2849A88C00DDB035 /* DayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayView.xib; sourceTree = "<group>"; };
+		B9DF229D2849A95300DDB035 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,25 @@
 		AFC67510208E2257009FD111 /* ScrollingInHorizontalStackView */ = {
 			isa = PBXGroup;
 			children = (
+				B9DF22982849A87400DDB035 /* ProductViews */,
 				AFC67511208E2257009FD111 /* AppDelegate.swift */,
 				AFC67513208E2257009FD111 /* ViewController.swift */,
-				AFC67523208E2C8D009FD111 /* DayView.xib */,
-				AFC67525208E3060009FD111 /* DayView.swift */,
 				AFC67515208E2257009FD111 /* Main.storyboard */,
 				AFC67518208E2259009FD111 /* Assets.xcassets */,
 				AFC6751A208E2259009FD111 /* LaunchScreen.storyboard */,
 				AFC6751D208E2259009FD111 /* Info.plist */,
+				B9DF229D2849A95300DDB035 /* MainTableViewController.swift */,
 			);
 			path = ScrollingInHorizontalStackView;
+			sourceTree = "<group>";
+		};
+		B9DF22982849A87400DDB035 /* ProductViews */ = {
+			isa = PBXGroup;
+			children = (
+				B9DF229A2849A88C00DDB035 /* DayView.xib */,
+				B9DF22992849A88C00DDB035 /* DayView.swift */,
+			);
+			path = ProductViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC6751C208E2259009FD111 /* LaunchScreen.storyboard in Resources */,
-				AFC67524208E2C8D009FD111 /* DayView.xib in Resources */,
+				B9DF229C2849A8D100DDB035 /* DayView.xib in Resources */,
 				AFC67519208E2259009FD111 /* Assets.xcassets in Resources */,
 				AFC67517208E2257009FD111 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF229E2849A95300DDB035 /* MainTableViewController.swift in Sources */,
 				AFC67514208E2257009FD111 /* ViewController.swift in Sources */,
-				AFC67526208E3060009FD111 /* DayView.swift in Sources */,
+				B9DF229B2849A8C900DDB035 /* DayView.swift in Sources */,
 				AFC67512208E2257009FD111 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
