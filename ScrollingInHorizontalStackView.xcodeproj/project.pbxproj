@@ -12,6 +12,8 @@
 		AFC67517208E2257009FD111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC67515208E2257009FD111 /* Main.storyboard */; };
 		AFC67519208E2259009FD111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC67518208E2259009FD111 /* Assets.xcassets */; };
 		AFC6751C208E2259009FD111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6751A208E2259009FD111 /* LaunchScreen.storyboard */; };
+		B9A5ADF7284ED28E000AE814 /* TVProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A5ADF6284ED28E000AE814 /* TVProductView.xib */; };
+		B9A5ADF9284EDD61000AE814 /* RecommenndTodayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A5ADF8284EDD61000AE814 /* RecommenndTodayView.xib */; };
 		B9DF229B2849A8C900DDB035 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF22992849A88C00DDB035 /* DayView.swift */; };
 		B9DF229C2849A8D100DDB035 /* DayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DF229A2849A88C00DDB035 /* DayView.xib */; };
 		B9DF229E2849A95300DDB035 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF229D2849A95300DDB035 /* MainTableViewController.swift */; };
@@ -25,6 +27,8 @@
 		AFC67518208E2259009FD111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC6751B208E2259009FD111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC6751D208E2259009FD111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A5ADF6284ED28E000AE814 /* TVProductView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVProductView.xib; sourceTree = "<group>"; };
+		B9A5ADF8284EDD61000AE814 /* RecommenndTodayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommenndTodayView.xib; sourceTree = "<group>"; };
 		B9DF22992849A88C00DDB035 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		B9DF229A2849A88C00DDB035 /* DayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayView.xib; sourceTree = "<group>"; };
 		B9DF229D2849A95300DDB035 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			children = (
 				B9DF229A2849A88C00DDB035 /* DayView.xib */,
 				B9DF22992849A88C00DDB035 /* DayView.swift */,
+				B9A5ADF6284ED28E000AE814 /* TVProductView.xib */,
+				B9A5ADF8284EDD61000AE814 /* RecommenndTodayView.xib */,
 			);
 			path = ProductViews;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				AFC6751C208E2259009FD111 /* LaunchScreen.storyboard in Resources */,
 				B9DF229C2849A8D100DDB035 /* DayView.xib in Resources */,
+				B9A5ADF7284ED28E000AE814 /* TVProductView.xib in Resources */,
 				AFC67519208E2259009FD111 /* Assets.xcassets in Resources */,
+				B9A5ADF9284EDD61000AE814 /* RecommenndTodayView.xib in Resources */,
 				AFC67517208E2257009FD111 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
